@@ -1,0 +1,36 @@
+{
+  "name": "omiga2",
+  "version": "1.0.0",
+  "description": "omiga",
+  "main": "./src/index.js",
+  "bin": {
+    "omiga2": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libin1991/omiga.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libin1991/omiga/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2",
+    "puppeteer": "^1.7.0"
+  },
+  "devDependencies": {
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.1",
+    "ora": "^3.2.0",
+    "puppeteer": "^1.13.0"
+  },
+  "homepage": "https://github.com/libin1991/omiga#readme"
+}
