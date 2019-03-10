@@ -4,7 +4,7 @@ const clui = require('clui')
 const Line = clui.Line
 const chalk = require('chalk');
  
- 
+const boxen = require('boxen'); 
 
 module.exports = class Outputer {
   output (data) {
@@ -21,7 +21,9 @@ module.exports = class Outputer {
       loadTime
     } = total;
     
-    console.log(chalk.blue(figlet.textSync('               Omiga')))
+    console.log(chalk.blue(figlet.textSync('               Omiga')));
+    
+    //console.log(boxen('Omiga 网页性能Performance测试 ', {padding: 1}));
     
     console.log(chalk.yellow("================================================================"));
     console.log(chalk.red.bold("                 Omiga 网页性能Performance测试                                  "));

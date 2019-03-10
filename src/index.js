@@ -9,7 +9,7 @@
  */
 // 命令行对象
 
-
+const terminal = require('terminal-utilities')
 const chalk = require('chalk');
 const ora = require('ora');
 const Cli = require('../src/cli')
@@ -37,6 +37,7 @@ var timer=setInterval(() => {
 performance.run(opts).then(async statisticData => {
 	spinner.succeed(`success after ${(Date.now() - startTime)/1000}s! \n`);
 	clearInterval(timer);
+	terminal.clear()   //清屏
 	let data = await analyzer.statistics(statisticData)
 	// console.log('data:', data)
 	outputer.output(data)

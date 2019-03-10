@@ -82,7 +82,7 @@ module.exports = class Cli {
 		url = Util.urlNormalize(url || config.url)   //转义
 		// 给cli参数赋予默认值
 		if(!count) {
-			count = config.count || 20
+			count = config.count || 5
 		}
 
 		if(useragent == null) {
