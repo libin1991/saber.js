@@ -6,7 +6,10 @@
 1.git clone ...
 2.cnpm i
 3.npm link
+4.saber https://www.baidu.com/
 ```
+> print
+
 ![](/demo.jpg) 
 
 ### puppeteer Demo-Test
