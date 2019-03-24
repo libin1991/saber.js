@@ -31,7 +31,7 @@ const spinner = ora('runing...').start();
 let spendTime = 0;
 var timer=setInterval(() => {
 	spendTime = spendTime + 1;
-	spinner.text = 'running Omiga in ' + spendTime + 's...';
+	spinner.text = 'running saber in ' + spendTime + 's...';
 }, 1000);
 
 performance.run(opts).then(async statisticData => {

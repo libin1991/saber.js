@@ -21,12 +21,12 @@ module.exports = class Outputer {
       loadTime
     } = total;
     
-    console.log(chalk.blue(figlet.textSync('               Omiga')));
+    console.log(chalk.blue(figlet.textSync('               saber')));
     
-    //console.log(boxen('Omiga 网页性能Performance测试 ', {padding: 1}));
+    //console.log(boxen('saber 网页性能Performance测试 ', {padding: 1}));
     
     console.log(chalk.yellow("================================================================"));
-    console.log(chalk.red.bold("                 Omiga 网页性能Performance测试                                  "));
+    console.log(chalk.red.bold("                 saber 网页性能Performance测试                                  "));
     console.log(chalk.yellow("================================================================"));
     console.log('\n')
     console.log(`加载 ${global.__hiper__.url} ${global.__hiper__.count} 次 用时 ${(global.__hiper__.runInterval) / 1000} s`)

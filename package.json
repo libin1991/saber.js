@@ -1,23 +1,23 @@
 {
-  "name": "omiga2",
+  "name": "saber",
   "version": "1.0.0",
-  "description": "omiga",
+  "description": "saber",
   "main": "./src/index.js",
   "bin": {
-    "omiga2": "./src/index.js"
+    "saber": "./src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/libin1991/omiga.git"
+    "url": "git+https://github.com/libin1991/saber.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/libin1991/omiga/issues"
+    "url": "https://github.com/libin1991/saber/issues"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -34,5 +34,5 @@
     "puppeteer": "^1.13.0",
     "terminal-utilities": "^2.4.1"
   },
-  "homepage": "https://github.com/libin1991/omiga#readme"
+  "homepage": "https://github.com/libin1991/saber#readme"
 }
