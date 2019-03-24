@@ -1,4 +1,4 @@
-### Omiga 网页性能Performance测试
+### saber 网页性能Performance测试
 
 > runing...
 
@@ -7,7 +7,7 @@
 2.cnpm i
 3.npm link
 ```
-![](https://raw.githubusercontent.com/libin1991/omiga/master/demo.png) 
+![](/demo.jpg) 
 
 ### puppeteer Demo-Test
 ```

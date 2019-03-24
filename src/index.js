@@ -41,6 +41,8 @@ performance.run(opts).then(async statisticData => {
 	let data = await analyzer.statistics(statisticData)
 	// console.log('data:', data)
 	outputer.output(data)
+}).catch((e)=>{
+	console.log('err',e)
 })
 
 // console.log(JSON.stringify(opts))

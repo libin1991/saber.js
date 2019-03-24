@@ -52,7 +52,7 @@ module.exports = class Cli {
 			.description(description)
 			.arguments('<url>')
 			.action(u => url = u)
-			.option('-n, --count <n>', '指定加载次数（default: 20）', parseInt)
+			.option('-n, --count <n>', '指定加载次数（default: 5）', parseInt)
 			.option('-c, --config <path>', '载入配置文件', this.parseJSONFile)
 			.option('-u, --useragent <ua>', '设置useragent')
 			.option('-H, --headless [b]', '是否使用无头模式（default: true）', this.headless)
