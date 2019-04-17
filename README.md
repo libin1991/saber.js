@@ -13,7 +13,7 @@
 ![](/demo.jpg) 
 
 ---
-### [JavaScript性能监视器 performance Monitor](https://github.com/mrdoob/stats.js)
+### [JavaScript性能监视器 performance Monitor](https://github.com/libin1991/stats.js?organization=libin1991&organization=libin1991)
 ![fps.png](https://raw.githubusercontent.com/mrdoob/stats.js/master/files/fps.png)
 ![ms.png](https://raw.githubusercontent.com/mrdoob/stats.js/master/files/ms.png)
 ![mb.png](https://raw.githubusercontent.com/mrdoob/stats.js/master/files/mb.png)
